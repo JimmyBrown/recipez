@@ -15,6 +15,7 @@
 		BF6953251C89566700435E5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF6953231C89566700435E5A /* LaunchScreen.storyboard */; };
 		BF6953311C96020300435E5A /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF69532F1C96020300435E5A /* Recipe+CoreDataProperties.swift */; };
 		BF6953321C96020300435E5A /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6953301C96020300435E5A /* Recipe.swift */; };
+		BF6953341C9606BA00435E5A /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6953331C9606BA00435E5A /* RecipeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BF6953261C89566700435E5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF69532F1C96020300435E5A /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BF6953301C96020300435E5A /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recipe.swift; path = ../Recipe.swift; sourceTree = "<group>"; };
+		BF6953331C9606BA00435E5A /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		BF69532D1C96018500435E5A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BF6953331C9606BA00435E5A /* RecipeCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				BF69531A1C89566700435E5A /* ViewController.swift in Sources */,
 				BF6953311C96020300435E5A /* Recipe+CoreDataProperties.swift in Sources */,
 				BF6953181C89566700435E5A /* AppDelegate.swift in Sources */,
+				BF6953341C9606BA00435E5A /* RecipeCell.swift in Sources */,
 				BF6953201C89566700435E5A /* recipez.xcdatamodeld in Sources */,
 				BF6953321C96020300435E5A /* Recipe.swift in Sources */,
 			);
